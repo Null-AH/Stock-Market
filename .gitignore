@@ -1,0 +1,48 @@
+# Build results
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Rider / VS Code / Visual Studio files
+.vs/
+.vscode/
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.log
+*.tlog
+*.cache
+*.pdb
+*.mdb
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+# Uncomment if you don’t commit NuGet lock files
+# packages.lock.json
+
+# Other
+*.dbmdl
+*.bak
+*.tmp
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Sensitive configs (decide if you want to track them)
+appsettings.Development.json
+appsettings.json
